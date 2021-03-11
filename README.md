@@ -1,6 +1,5 @@
 # Covid 19 - Kubernetes Architecture
 
-
 ### Arquitectura del Sistema:
 
 ![img/WhatsApp_Image_2020-12-26_at_6.47.03_PM.jpeg](img/WhatsApp_Image_2020-12-26_at_6.47.03_PM.jpeg)
