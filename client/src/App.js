@@ -9,20 +9,20 @@ import io from "socket.io-client";
 let socket;
 
 const App = () => {
-  const ENDPOINT = 'https://socket-pwrrzy4fsq-uc.a.run.app';
+  const ENDPOINT = 'https://node-socket-tnkbnmer5a-uc.a.run.app';
   socket = io(ENDPOINT);
-  
+  /*
   useEffect(() => {
     return () => socket.disconnect();
   }, []);
-
+  */  
   return (
     <Router>
       <nav className="navbar navbar-dark bg-primary navbar-expand-sm fixed-top">
         <div className="container">
           <h3 className="navbar-brand" >Sistemas Operativos 1</h3>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span className="navbar-toggler-icon"></span>
             </button>
 
           <div className="collapse navbar-collapse" id="Navbar">

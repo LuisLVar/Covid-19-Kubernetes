@@ -1,0 +1,11 @@
+kubectl get -n proyecto2 deploy -o yaml \
+  | linkerd inject - \
+  | kubectl apply -f -
+
+
+  kubectl get -n proyecto2 deploy -o yaml \
+  | linkerd inject - \
+  | kubectl apply -f -
+
+
+  kubectl get deployment dummy-ingress -n proyecto2 -o yaml | linkerd inject --ingress - | kubectl apply -f -
